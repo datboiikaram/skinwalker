@@ -1,0 +1,49 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  display: inline-block;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  border: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "rubik";
+  color: var(--color-white);
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-image: url("images/blury.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}/*# sourceMappingURL=style.css.map */
